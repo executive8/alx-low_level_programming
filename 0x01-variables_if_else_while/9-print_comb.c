@@ -8,18 +8,18 @@
  */
 int main(void)
 {
-int c = 0;
+int c;
 
-while (c < 10)
+for (c = 0; c < 10; c++)
 {
-putchar(48 + c\0;
-if (c != 9)
+putchar(c + '0');
+if (c < 9)
 {
 putchar(',');
 putchar(' ');
 }
-c++;
+
 }
-putchar('\n');
+putcha('\n');
 return (0);
 }
